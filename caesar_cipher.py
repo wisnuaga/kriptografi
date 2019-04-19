@@ -35,7 +35,10 @@ class Caesar:
 
 msg = "kOteKA 1234"
 key = 3
+mono = Caesar(msg, key)
 
-monoalphabetic = Caesar(msg, key)
-print (monoalphabetic.encrypt())
-print (monoalphabetic.decrypt())
+print ("Pesan : " + mono.message)
+print ("Kunci : " + str(mono.key))
+print ("======================================")
+print ("Encrypt : " + mono.encrypt())
+print ("Decrypt : " + mono.decrypt())

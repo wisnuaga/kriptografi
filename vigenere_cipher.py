@@ -43,8 +43,11 @@ class Vigenere:
 
 
 msg = "kOteKA 1234"
-key = "beg"
+key = "beG"
+poly = Vigenere(msg, key)
 
-polyalphabetic = Vigenere(msg, key)
-print (polyalphabetic.encrypt())
-print (polyalphabetic.decrypt())
+print ("Pesan : " + poly.message)
+print ("Kunci : " + poly.key)
+print ("======================================")
+print ("Encrypt : " + poly.encrypt())
+print ("Decrypt : " + poly.decrypt())
