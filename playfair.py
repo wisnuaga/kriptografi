@@ -8,7 +8,7 @@ def build_key_list(key):
     key_list = key_list.replace(' ', '')
     return list(key_list)
 
-def build_key(key):
+def build_matrix_key(key):
     matrix_key = []
     key_list = build_key_list(key)
     alfabet = [chr(index) for index in range(65, 91)]
@@ -125,7 +125,7 @@ def to_string(list_text):
 
 msg = "bodo amat bozz"
 key = "bangsat jahat"
-matrix_key = build_key(key)
+matrix_key = build_matrix_key(key)
 
 en_msg = encrypt(msg, matrix_key)
 dn_msg = decrypt(en_msg, matrix_key)
