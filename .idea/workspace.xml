@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0e2024-587d-4ff9-a070-a7d7b02de1bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/playfair_cipher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vigenere_cipher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vigenere_cipher.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caesar_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/caesar_cipher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playfair.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vigenere_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/vigenere_cipher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/caesar_cipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="170">
               <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="37" />
               <folding>
-                <element signature="e#126#171#0" />
-                <element signature="e#249#294#0" />
-                <element signature="e#362#666#0" />
+                <element signature="e#18#1016#0" />
                 <element signature="e#694#1016#0" />
               </folding>
             </state>
@@ -34,29 +30,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vigenere_cipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+              <folding>
+                <element signature="e#20#1467#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playfair_cipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="145" selection-start-line="145" selection-end-line="147" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="145" column="31" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
               <folding>
-                <element signature="e#138#444#0" />
-                <element signature="e#504#751#0" />
-                <element signature="e#598#714#0" />
-                <element signature="e#448#478#0" />
-                <element signature="e#1394#1870#0" />
-                <element signature="e#1875#1902#0" />
-                <element signature="e#2230#2519#0" />
-                <element signature="e#2206#2388#0" />
-                <element signature="e#2428#2573#0" />
-                <element signature="e#2206#3108#0" />
-                <element signature="e#3927#4887#0" />
+                <element signature="e#20#4703#0" />
               </folding>
             </state>
           </provider>
@@ -98,6 +87,9 @@
         <option value="$PROJECT_DIR$/playfair_cipher.py" />
         <option value="$PROJECT_DIR$/caesar_cipher.py" />
         <option value="$PROJECT_DIR$/vigenere_cipher.py" />
+        <option value="$PROJECT_DIR$/matrix.py" />
+        <option value="$PROJECT_DIR$/example.py" />
+        <option value="$PROJECT_DIR$/hill_cipher.py" />
       </list>
     </option>
   </component>
@@ -147,6 +139,28 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigenere_cipher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="monoalpha" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="vigenere_cipher" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +209,11 @@
       <workItem from="1555473407926" duration="2379000" />
       <workItem from="1555563636066" duration="101000" />
       <workItem from="1555647466928" duration="145000" />
-      <workItem from="1555648064314" duration="9374000" />
+      <workItem from="1555648064314" duration="10137000" />
+      <workItem from="1555702153162" duration="2244000" />
+      <workItem from="1555705052007" duration="2434000" />
+      <workItem from="1555713634148" duration="42000" />
+      <workItem from="1555749150751" duration="7909000" />
     </task>
     <task id="LOCAL-00001" summary="- hapus main.py&#10;- pisahkan caesar dan vigenere&#10;- hapus static method">
       <created>1555651158794</created>
@@ -204,17 +222,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555651158794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- buat class pada playfair cipher">
+      <created>1555660761174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555660761174</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33175000" />
+    <option name="totallyTimeSpent" value="46567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123298034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -226,13 +251,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.29296234" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" x="0" y="0" width="295" height="544" id="Documentation" order="12" sideWeight="0.5040917" side_tool="true" weight="0.3633388" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.39636913" />
+      <window_info anchor="right" id="Terminal" order="3" sideWeight="0.49590835" visible="true" weight="0.36384267" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="5" />
     </layout>
@@ -242,68 +268,67 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- hapus main.py&#10;- pisahkan caesar dan vigenere&#10;- hapus static method" />
-    <option name="LAST_COMMIT_MESSAGE" value="- hapus main.py&#10;- pisahkan caesar dan vigenere&#10;- hapus static method" />
+    <MESSAGE value="- buat class pada playfair cipher" />
+    <option name="LAST_COMMIT_MESSAGE" value="- buat class pada playfair cipher" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vigenere.py" />
     <entry file="file://$PROJECT_DIR$/polyalpha.py" />
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/alphabetic.py" />
+    <entry file="file://$PROJECT_DIR$/playfair.py" />
+    <entry file="file://$PROJECT_DIR$/matrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alphabetic.py">
+    <entry file="file://$PROJECT_DIR$/hill_cipher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="74" column="43" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="74" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playfair.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caesar_cipher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="765">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
-            <element signature="e#126#171#0" />
-            <element signature="e#249#294#0" />
-            <element signature="e#362#666#0" />
-            <element signature="e#694#1016#0" />
+            <element signature="e#200#413#0" />
+            <element signature="e#572#731#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playfair_cipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="145" column="31" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
+          <folding>
+            <element signature="e#20#4703#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vigenere_cipher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#20#1467#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playfair_cipher.py">
+    <entry file="file://$PROJECT_DIR$/caesar_cipher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="145" selection-start-line="145" selection-end-line="147" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="37" />
           <folding>
-            <element signature="e#138#444#0" />
-            <element signature="e#504#751#0" />
-            <element signature="e#598#714#0" />
-            <element signature="e#448#478#0" />
-            <element signature="e#1394#1870#0" />
-            <element signature="e#1875#1902#0" />
-            <element signature="e#2230#2519#0" />
-            <element signature="e#2206#2388#0" />
-            <element signature="e#2428#2573#0" />
-            <element signature="e#2206#3108#0" />
-            <element signature="e#3927#4887#0" />
+            <element signature="e#18#1016#0" />
+            <element signature="e#694#1016#0" />
           </folding>
         </state>
       </provider>
