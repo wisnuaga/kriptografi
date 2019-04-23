@@ -37,9 +37,9 @@ class Playfair:
 
         # build matrix key
         i = 0
-        for col in range(5):
+        for y in range(5):
             temp = []
-            for row in range(5):
+            for x in range(5):
                 temp.append(merge_list[i])
                 i = i + 1
             matrix_key.append(temp)
@@ -66,11 +66,11 @@ class Playfair:
 
     def __build_index(self, msg):
         list_index = []
-        for index in range(len(msg)):
-            for col in range(5):
-                for row in range(5):
-                    if (msg[index] == self.matrix_key[col][row]):
-                        list_index.append([col, row])
+        for i in range(len(msg)):
+            for y in range(5):
+                for x in range(5):
+                    if (msg[i] == self.matrix_key[y][x]):
+                        list_index.append([y, x])
         return list_index
 
     @staticmethod
@@ -93,11 +93,11 @@ class Playfair:
     def encrypt(self):
         e_msg = []
 
-        for index in range(0, len(self.msg_index) - 1, 2):
-            first_col = self.msg_index[index][0]
-            first_row = self.msg_index[index][1]
-            seccond_col = self.msg_index[index + 1][0]
-            seccond_row = self.msg_index[index + 1][1]
+        for i in range(0, len(self.msg_index) - 1, 2):
+            first_col = self.msg_index[i][0]
+            first_row = self.msg_index[i][1]
+            seccond_col = self.msg_index[i + 1][0]
+            seccond_row = self.msg_index[i + 1][1]
 
             if (first_row == seccond_row):
                 first_char = self.matrix_key[(first_col + 1) % 5][first_row]
@@ -118,11 +118,11 @@ class Playfair:
         e_msg_index = self.__build_index(e_msg)
         d_msg = []
 
-        for index in range(0, len(e_msg_index) - 1, 2):
-            first_col = e_msg_index[index][0]
-            first_row = e_msg_index[index][1]
-            seccond_col = e_msg_index[index + 1][0]
-            seccond_row = e_msg_index[index + 1][1]
+        for i in range(0, len(e_msg_index) - 1, 2):
+            first_col = e_msg_index[i][0]
+            first_row = e_msg_index[i][1]
+            seccond_col = e_msg_index[i + 1][0]
+            seccond_row = e_msg_index[i + 1][1]
 
             if (first_row == seccond_row):
                 first_char = self.matrix_key[(first_col - 1) % 5][first_row]
