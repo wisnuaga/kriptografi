@@ -75,7 +75,7 @@ class Playfair:
 
     @staticmethod
     def to_list(text):
-        temp = build_msg_list(text)
+        temp = __build_msg_list(text)
         list_text = []
 
         for index in range(0, len(temp) - 1, 2):
